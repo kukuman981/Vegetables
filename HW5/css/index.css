@@ -1,0 +1,148 @@
+body{
+    background:#edf2c5;
+}
+
+.background{
+    width: 1260px;
+    height:940px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 53px;
+}
+
+header h1{
+    font-size: 44px;
+    color:#778a50;
+    margin: 0;
+    font-family: Arial Black,sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 940px;
+    margin-bottom: 8px;
+}
+
+header .header-buttons{
+    display: flex;
+}
+
+header .header-buttons img{
+    cursor:pointer;
+    height: 25px;
+    width:25px;
+
+}
+header .header-buttons img, .center-line, header .header-buttons button{
+    margin-left: 10px;
+}
+
+.center-line{
+    border-left: solid #778a50 1px;
+}
+
+header .header-buttons button{
+    cursor: pointer;
+    font-family: Arial Black,sans-serif;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 3px;
+    border: solid 1px;
+    color: #778a50;
+    background-color: #EDF2c5;
+}
+
+nav{
+    width: 940px;
+    background: #778a50;
+    padding: 16px 0;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Arial Black,sans-serif;
+    font-size: 16px;
+    color: #edf2c5;
+    margin: 0 30px;
+}
+  
+.pumpkin{
+    width: 940px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+  
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 940px;
+    margin-bottom: 35px;
+
+}
+  
+.main-block{
+    width: 445px;
+}
+  
+main .main-block h2{
+    padding: 15px 30px;
+    font-family: Arial Black,sans-serif;
+    font-size: 16px;
+    background: #778a50;
+    color: #edf2c5;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+  
+.main-picture{
+    display: flex;
+    justify-content: space-between;
+}
+  
+.main-picture img{
+    height: 140px;
+    width: 140px;
+}
+  
+.main-word{
+    background: #f7fbda;
+    padding: 16px 15px;
+    border-radius: 3px;
+}
+  
+.main-word p{
+    font-family: Arial Black,sans-serif;
+    font-size: 12px;
+    line-height: 1.33;
+    margin: 0;
+    color: #7d7d7d;
+}
+  
+p.main-contact{
+    line-height: 1.83;
+}
+  
+.main-divide{
+    border-top: solid #7d7d7d 1px;
+    margin: 16px 0;
+}
+  
+footer{
+    font-family: Arial Black,sans-serif;
+    font-size: 12px;
+    color: #edf2c5;
+    width: 100%;
+    background: #778a50;
+    text-align: center;
+    padding: 24px 0 25px 0;
+}
+  
+  
